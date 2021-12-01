@@ -24,7 +24,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
         <Image src={product.image} height={300} width={220} alt="" />
         <h4 className={styles.title}>{product.product}</h4>
         <h5 className={styles.category}>{product.category}</h5>
-        <p>$ {product.price}</p>
+        <p className={styles.price}>$ {product.price}</p>
         <button
         onClick={() => dispatch(addToCart(product))}
         className={styles.button}

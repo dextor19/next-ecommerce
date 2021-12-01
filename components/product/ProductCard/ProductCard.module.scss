@@ -1,17 +1,28 @@
 .card {
     display: flex;
     flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    max-height: 400px;
   }
   
   .title {
     font-size: 1rem;
     font-weight: 600;
+    margin: 4px;
   }
   
   .category {
     font-size: 0.8rem;
     text-transform: uppercase;
+    margin: 4px;
   }
+
+  .price {
+    margin: 0;
+  }
+
   .button {
     width: 100%;
     margin-top: 0.5rem;
@@ -19,9 +30,12 @@
     background: transparent;
     text-transform: uppercase;
     border: 2px solid black;
+    background: black;
+    color: white;
     cursor: pointer;
   }
   .button:hover {
-    background: black;
-    color: white;
+    border: 2px solid black;
+    background: white;
+    color: black;
   }
