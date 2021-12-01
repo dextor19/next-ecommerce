@@ -1,212 +1,156 @@
 [
     {
       "id": 1,
-      "product": "Cyberpunk 2077",
-      "category": "xbox",
-      "image": "https://imgur.com/3CF1UhY.png",
-      "price": 36.49
+      "product": "Plain Black T-Shirt",
+      "category": "t-shirts",
+      "image": "https://images.unsplash.com/photo-1618517351616-38fb9c5210c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+      "price": 29.99
     },
     {
       "id": 2,
-      "product": "Grand Theft Auto 5",
-      "category": "xbox",
-      "image": "https://imgur.com/BqNWnDB.png",
-      "price": 21.99
+      "product": "Peace Sign Skeleton Black T-Shirt",
+      "category": "t-shirts",
+      "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": 29.99
     },
     {
       "id": 3,
-      "product": "Minecraft",
-      "category": "xbox",
-      "image": "https://imgur.com/LXnUnd2.png",
-      "price": 49.99
+      "product": "Plain White T-Shirt",
+      "category": "t-shirts",
+      "image": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": 29.99
     },
     {
       "id": 4,
-      "product": "PUBG",
-      "category": "xbox",
-      "image": "https://imgur.com/Ondg3Jn.png",
-      "price": 5.09
+      "product": "Social Savage T-Shirt",
+      "category": "t-shirts",
+      "image": "https://images.unsplash.com/photo-1616006897093-5e4635c0de35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "price": 19.99
     },
     {
       "id": 5,
-      "product": "FIFA 21",
-      "category": "xbox",
-      "image": "https://imgur.com/AzT9YMP.png",
+      "product": "Cobbles Classic T-Shirt",
+      "category": "t-shirts",
+      "image": "https://images.unsplash.com/photo-1564859228273-274232fdb516?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "price": 17.49
     },
     {
       "id": 6,
-      "product": "Battlefield 5",
-      "category": "xbox",
-      "image": "https://imgur.com/X3MQNVs.png",
-      "price": 29.35
+      "product": "White Shirt",
+      "category": "shirts",
+      "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+      "price": 49.99
     },
     {
       "id": 7,
-      "product": "Watch Dogs 2",
-      "category": "xbox",
-      "image": "https://imgur.com/v3lqCEb.png",
-      "price": 18.99
+      "product": "Pink Shirt",
+      "category": "shirts",
+      "image": "https://images.unsplash.com/photo-1598032895455-526c9e347a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "price": 49.99
     },
     {
       "id": 8,
-      "product": "Fortnite",
-      "category": "ps5",
-      "image": "https://imgur.com/3lTxDpl.png",
-      "price": 29.99
+      "product": "Blue Strip Shirt",
+      "category": "shirts",
+      "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": 49.99
     },
     {
       "id": 9,
-      "product": "Call of Duty: Black Ops",
-      "category": "ps5",
-      "image": "https://imgur.com/4GvUw3G.png",
-      "price": 69.99
+      "product": "Navi Shirt",
+      "category": "shirts",
+      "image": "https://images.unsplash.com/photo-1581863293459-1a1ee19e0857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "price": 49.99
     },
     {
       "id": 10,
-      "product": "NBA2K21 Next Generation",
-      "category": "ps5",
-      "image": "https://imgur.com/Mxjvkws.png",
+      "product": "Blue Shirt",
+      "category": "shirts",
+      "image": "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "price": 69.99
     },
     {
       "id": 11,
-      "product": "Spider-Man Miles Morales",
-      "category": "ps5",
-      "image": "https://imgur.com/guV5cUF.png",
-      "price": 29.99
+      "product": "Navi Suit",
+      "category": "suits",
+      "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "price": 129.99
     },
     {
       "id": 12,
-      "product": "Resident Evil Village",
-      "category": "ps5",
-      "image": "https://imgur.com/1CxJz8E.png",
-      "price": 59.99
+      "product": "Green Suit",
+      "category": "suits",
+      "image": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": 129.99
     },
     {
       "id": 13,
-      "product": "Assassin's Creed Valhalla",
-      "category": "ps5",
-      "image": "https://imgur.com/xJD093X.png",
-      "price": 59.99
+      "product": "Blue and White Strip Suit",
+      "category": "suits",
+      "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": 129.99
     },
     {
       "id": 14,
-      "product": "Animal Crossing",
-      "category": "switch",
-      "image": "https://imgur.com/1SVaEBk.png",
-      "price": 59.99
+      "product": "Tuxedo",
+      "category": "suits",
+      "image": "https://images.unsplash.com/photo-1592878897400-43fb1f1cc324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": 139.99
     },
     {
       "id": 15,
-      "product": "The Legend of Zelda",
-      "category": "switch",
-      "image": "https://imgur.com/IX5eunc.png",
-      "price": 59.99
+      "product": "Light Blue Suit",
+      "category": "suits",
+      "image": "https://images.unsplash.com/photo-1594938328870-9623159c8c99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": 129.99
     },
     {
       "id": 16,
-      "product": "Stardew Valley",
-      "category": "switch",
-      "image": "https://imgur.com/aL3nj5t.png",
-      "price": 14.99
+      "product": "Black Leather Shoes",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1621881538090-b2b5ffaa996a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "price": 39.99
     },
     {
       "id": 17,
-      "product": "Mario Golf Super Rush",
-      "category": "switch",
-      "image": "https://imgur.com/CPxlyEg.png",
+      "product": "Leather Chelsea Boot",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1608629601270-a0007becead3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
       "price": 59.99
     },
     {
       "id": 18,
-      "product": "Super Smash Bros",
-      "category": "switch",
-      "image": "https://imgur.com/ZuLatzs.png",
+      "product": "Brown Leather Shoes",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1625357165350-bdbcb6d7d524?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       "price": 59.99
     },
     {
       "id": 19,
-      "product": "Grand Theft Auto 5",
-      "category": "pc",
-      "image": "https://imgur.com/9LRil4N.png",
-      "price": 29.99
+      "product": "Black Umbrella",
+      "category": "umbrellas",
+      "image": "https://images.unsplash.com/photo-1514882651048-f09572b0233e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=584&q=80",
+      "price": 19.99
     },
     {
       "id": 20,
-      "product": "Battlefield V",
-      "category": "pc",
-      "image": "https://imgur.com/T3v629h.png",
+      "product": "Leather Bag",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1603219527847-24c87f552a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "price": 39.99
     },
     {
       "id": 21,
-      "product": "Red Dead Redemption 2",
-      "category": "pc",
-      "image": "https://imgur.com/aLObdQK.png",
+      "product": "Leather Briefcase",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1608731267464-c0c889c2ff92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
       "price": 39.99
     },
     {
       "id": 22,
-      "product": "Flight Simulator 2020",
-      "category": "pc",
-      "image": "https://imgur.com/2IeocI8.png",
-      "price": 59.99
-    },
-    {
-      "id": 23,
-      "product": "Forza Horizon 4",
-      "category": "pc",
-      "image": "https://imgur.com/gLQsp6N.png",
-      "price": 59.99
-    },
-    {
-      "id": 24,
-      "product": "Minecraft",
-      "category": "pc",
-      "image": "https://imgur.com/qm1gaGD.png",
-      "price": 29.99
-    },
-    {
-      "id": 25,
-      "product": "Rainbow Six Seige",
-      "category": "pc",
-      "image": "https://imgur.com/JIgzykM.png",
-      "price": 7.99
-    },
-    {
-      "id": 26,
-      "product": "Xbox Controller",
-      "category": "accessories",
-      "image": "https://imgur.com/a964vBm.png",
-      "price": 59.0
-    },
-    {
-      "id": 27,
-      "product": "Xbox Controller",
-      "category": "accessories",
-      "image": "https://imgur.com/ntrEPb1.png",
-      "price": 69.0
-    },
-    {
-      "id": 28,
-      "product": "Gaming Keyboard",
-      "category": "accessories",
-      "image": "https://imgur.com/VMe3WBk.png",
-      "price": 49.99
-    },
-    {
-      "id": 29,
-      "product": "Gaming Mouse",
-      "category": "accessories",
-      "image": "https://imgur.com/wvpHOCm.png",
-      "price": 29.99
-    },
-    {
-      "id": 30,
-      "product": "Switch Joy-Con",
-      "category": "accessories",
-      "image": "https://imgur.com/faQ0IXH.png",
-      "price": 13.99
+      "product": "Leather Duffle Bag",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1479219136056-56bb6495a005?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "price": 39.99
     }
   ]

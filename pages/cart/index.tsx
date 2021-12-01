@@ -33,7 +33,7 @@ const CartPage = () => {
             <div>Actions</div>
             <div>Total Price</div>
           </div>
-          {cart.cartReducer.map((item: any, index: any) => (
+          {cart.cartReducer.map((item: any, index: number) => (
             <div className={styles.body} key={index}>
               <div className={styles.image}>
                 <Image src={item.image} height="90" width="65" alt="" />
@@ -52,10 +52,10 @@ const CartPage = () => {
                   x
                 </button>
               </div>
-              <p>$ {item.quantity * item.price}</p>
+              <p>$ {parseFloat(getTotalPrice().toString()).toFixed(2)}</p>
             </div>
           ))}
-          <h2>Grand Total: $ {getTotalPrice()}</h2>
+          <h2>Grand Total: $ {parseFloat(getTotalPrice().toString()).toFixed(2)}</h2>
         </>
       )}
     </div>
