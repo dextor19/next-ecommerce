@@ -1,4 +1,4 @@
-import data from './data.json';
+import data from '../data.json';
 
 export function getProductById(id: number) {
   if (typeof id !== 'undefined') {

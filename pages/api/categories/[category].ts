@@ -1,4 +1,4 @@
-import data from './data.json';
+import data from '../data.json';
 
 export function getProductsByCategory(category: any) {
   const products = data.filter((product: any) => product.category === category);
