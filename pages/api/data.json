@@ -4,132 +4,187 @@
       "product": "Plain Black T-Shirt",
       "category": "t-shirts",
       "image": "https://images.unsplash.com/photo-1618517351616-38fb9c5210c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
-      "price": 29.99
+      "price": 29.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 2,
       "product": "Plain White T-Shirt",
       "category": "t-shirts",
       "image": "https://images.unsplash.com/photo-1622445275463-afa2ab738c34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      "price": 29.99
+      "price": 29.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 3,
       "product": "White Shirt",
       "category": "shirts",
       "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
-      "price": 49.99
+      "price": 49.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 4,
       "product": "Pink Shirt",
       "category": "shirts",
       "image": "https://images.unsplash.com/photo-1598032895455-526c9e347a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
-      "price": 49.99
+      "price": 49.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 5,
       "product": "Blue Strip Shirt",
       "category": "shirts",
       "image": "https://images.unsplash.com/photo-1594938291221-94f18cbb5660?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "price": 49.99
+      "price": 49.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 6,
       "product": "Navi Shirt",
       "category": "shirts",
       "image": "https://images.unsplash.com/photo-1581863293459-1a1ee19e0857?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
-      "price": 49.99
+      "price": 49.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 7,
       "product": "Blue Shirt",
       "category": "shirts",
       "image": "https://images.unsplash.com/photo-1604695573706-53170668f6a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      "price": 69.99
+      "price": 69.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 8,
       "product": "Navi Suit",
       "category": "suits",
       "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      "price": 129.99
+      "price": 129.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 9,
       "product": "Green Suit",
       "category": "suits",
       "image": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "price": 129.99
+      "price": 129.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 10,
       "product": "Blue and White Strip Suit",
       "category": "suits",
       "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "price": 129.99
+      "price": 129.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 11,
       "product": "Tuxedo",
       "category": "suits",
       "image": "https://images.unsplash.com/photo-1592878897400-43fb1f1cc324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "price": 139.99
+      "price": 139.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"]
     },
     {
       "id": 12,
       "product": "Light Blue Suit",
       "category": "suits",
       "image": "https://images.unsplash.com/photo-1594938328870-9623159c8c99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "price": 129.99
+      "price": 129.99,
+      "sizes": ["s","m","l","xl","2xl","3xl"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 13,
       "product": "Black Leather Shoes",
       "category": "shoes",
       "image": "https://images.unsplash.com/photo-1621881538090-b2b5ffaa996a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
-      "price": 39.99
+      "price": 39.99,
+      "sizes": ["4","5","6","7","8","9"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 14,
       "product": "Leather Chelsea Boot",
       "category": "shoes",
       "image": "https://images.unsplash.com/photo-1608629601270-a0007becead3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "price": 59.99
+      "price": 59.99,
+      "sizes": ["4","5","6","7","8","9"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 15,
       "product": "Brown Leather Shoes",
       "category": "shoes",
       "image": "https://images.unsplash.com/photo-1625357165350-bdbcb6d7d524?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      "price": 59.99
+      "price": 59.99,
+      "sizes": ["4","5","6","7","8","9"],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 16,
       "product": "Black Umbrella",
       "category": "umbrellas",
       "image": "https://images.unsplash.com/photo-1514882651048-f09572b0233e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=584&q=80",
-      "price": 19.99
+      "price": 19.99,
+      "sizes": [""],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 17,
       "product": "Leather Bag",
       "category": "bags",
       "image": "https://images.unsplash.com/photo-1603219527847-24c87f552a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      "price": 39.99
+      "price": 39.99,
+      "sizes": [""],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 18,
       "product": "Leather Briefcase",
       "category": "bags",
       "image": "https://images.unsplash.com/photo-1608731267464-c0c889c2ff92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
-      "price": 39.99
+      "price": 39.99,
+      "sizes": [""],
+      "description": "",
+      "inStock": true
     },
     {
       "id": 19,
       "product": "Leather Duffle Bag",
       "category": "bags",
       "image": "https://images.unsplash.com/photo-1479219136056-56bb6495a005?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-      "price": 39.99
+      "price": 39.99,
+      "sizes": [""],
+      "description": "",
+      "inStock": true
     }
   ]

@@ -13,7 +13,6 @@ const ProductPage: FC<ProductPageProps> = ({ product }) => {
   const router = useRouter();
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{product.product}</h1>
       <div className={styles.cards}>
           <ProductImage image={product.image} />
           <ProductMenu key={product.id} product={product} />
