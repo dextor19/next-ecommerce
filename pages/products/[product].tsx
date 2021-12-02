@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { useRouter } from 'next/router';
 import ProductImage from '@components/product/ProductImage';
+import ProductMenu from '@components/product/ProductMenu';
 import styles from '../../styles/ShopPage.module.css';
 import { getProductById } from '../api/products/[product]';
 
@@ -15,6 +16,7 @@ const ProductPage: FC<ProductPageProps> = ({ product }) => {
       <h1 className={styles.title}>{product.product}</h1>
       <div className={styles.cards}>
           <ProductImage image={product.image} />
+          <ProductMenu key={product.id} product={product} />
       </div>
     </div>
   );

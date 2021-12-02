@@ -28,12 +28,6 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
             <h4 className={styles.title}>{product.product}</h4>
             <p className={styles.price}>$ {product.price}</p>
         </div>
-        {/* <button
-        onClick={() => dispatch(addToCart(product))}
-        className={styles.button}
-        >
-        Add to Cart
-        </button> */}
     </div>
     );
 };

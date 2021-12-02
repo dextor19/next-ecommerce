@@ -1,8 +1,5 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import { useDispatch } from 'react-redux';
-import { addToCart } from '@redux/cart.slice';
 import styles from './ProductImage.module.scss';
 
 interface ProductImageProps {
@@ -10,8 +7,7 @@ interface ProductImageProps {
 
 }
 
-const ProductCard: FC<ProductImageProps> = ({ image }) => {
-    const dispatch = useDispatch();
+const ProductImage: FC<ProductImageProps> = ({ image }) => {
     return (
     <div className={styles.container}>
         <Image src={image} height={1000} width={850} alt="" />
@@ -19,4 +15,4 @@ const ProductCard: FC<ProductImageProps> = ({ image }) => {
     );
 };
 
-export default ProductCard;
+export default ProductImage;
