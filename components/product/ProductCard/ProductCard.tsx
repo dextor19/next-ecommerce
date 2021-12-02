@@ -21,16 +21,17 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
 
     return (
     <div className={styles.card}>
-        <Image src={product.image} height={300} width={220} alt="" />
-        <h4 className={styles.title}>{product.product}</h4>
-        <h5 className={styles.category}>{product.category}</h5>
-        <p className={styles.price}>$ {product.price}</p>
-        <button
+        <Image src={product.image} height={584} width={304} alt="" />
+        <div className={styles.row}>
+            <h4 className={styles.title}>{product.product}</h4>
+            <p className={styles.price}>$ {product.price}</p>
+        </div>
+        {/* <button
         onClick={() => dispatch(addToCart(product))}
         className={styles.button}
         >
         Add to Cart
-        </button>
+        </button> */}
     </div>
     );
 };
