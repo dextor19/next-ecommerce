@@ -12,6 +12,9 @@ const Hero: FC<HeroProps> = ({ image, name }) => {
     return (
       <div className={styles.hero}>
         <Image className={styles.image} src={image} height={1920} width={2700} alt="" />
+        <div className={styles.info}>
+          <h3>{name}</h3>
+        </div>
       </div>
     );
   };
