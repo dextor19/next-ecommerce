@@ -36,6 +36,7 @@ const HomePage = () => {
         />
       </div>
       <div className={styles.bottom_border} />
+      <h3>New Arrivals</h3>
     </main>
   );
 };

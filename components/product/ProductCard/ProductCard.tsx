@@ -18,7 +18,7 @@ interface ProductCardProps {
 
 const ProductCard: FC<ProductCardProps> = ({ product }) => {
     const dispatch = useDispatch();
-
+    console.log(product)
     return (
     <div className={styles.card}>
         <Image src={product.image} height={584} width={304} alt="" />

@@ -2,7 +2,7 @@ import { FC } from 'react';
 import { useRouter } from 'next/router';
 import ProductCard from '@components/product/ProductCard';
 import styles from '../../styles/ShopPage.module.css';
-import { getProductsByCategory } from '../api/products/[category]';
+import { getProductsByCategory } from '../api/categories/[category]';
 
 interface CategoryPageProps {
     products: any;
