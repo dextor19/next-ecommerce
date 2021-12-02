@@ -35,6 +35,7 @@ const HomePage = () => {
           name="Bags"
         />
       </div>
+      <div className={styles.bottom_border} />
     </main>
   );
 };
