@@ -8,6 +8,7 @@
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 1.5rem;
   }
   .links {
     display: flex;
@@ -23,5 +24,8 @@
   }
   .navlink a:hover {
     color: #f9826c;
+  }
+  .bottom_border {
+    border-bottom: 1px solid black;
   }
   

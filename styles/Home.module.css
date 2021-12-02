@@ -1,11 +1,7 @@
 .container {
   padding: 0 2rem;
 }
-.small {
+.grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.large {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 3fr;
 }
