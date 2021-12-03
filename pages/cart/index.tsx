@@ -54,7 +54,7 @@ const CartPage = () => {
                 <button onClick={() => dispatch(decrementQuantity(item))}>
                   -
                 </button>
-                <button onClick={() => dispatch(removeFromCart(item.id))}>
+                <button onClick={() => dispatch(removeFromCart(item))}>
                   x
                 </button>
               </div>
