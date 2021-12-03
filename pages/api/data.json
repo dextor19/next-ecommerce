@@ -7,7 +7,8 @@
       "price": 29.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Irure magna occaecat sit exercitation laboris officia proident ea tempor ut voluptate eiusmod ipsum et. Fugiat velit do nulla amet mollit eu occaecat amet sit elit elit velit. Lorem ipsum laborum culpa exercitation proident cupidatat. Cillum voluptate velit in aliqua exercitation do labore. Anim est adipisicing velit nostrud do minim. Enim commodo enim ipsum est voluptate laborum duis veniam. Deserunt dolore reprehenderit est reprehenderit aute sunt minim.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [2,3,4]
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@
       "price": 29.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Magna ullamco nisi officia nostrud irure non ullamco et consectetur. Veniam aliqua proident enim cupidatat veniam. Ex dolore deserunt ad ea aliqua aliquip deserunt id deserunt. Non aute enim aute ipsum id irure ex. Do dolore ex nulla adipisicing excepteur nostrud minim non magna dolor et ullamco.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [3,4,5]
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
       "price": 49.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Consectetur qui mollit duis nisi qui laboris id tempor. Incididunt minim occaecat reprehenderit proident reprehenderit culpa in amet excepteur. Sunt qui nisi nulla esse Lorem et qui ullamco culpa nulla irure minim reprehenderit. Voluptate culpa officia exercitation labore nulla deserunt nostrud officia incididunt aliquip sint culpa eiusmod. Ut sunt eiusmod exercitation occaecat. Amet cillum aliquip excepteur dolore dolor amet ipsum ullamco velit. Amet fugiat reprehenderit excepteur excepteur cillum deserunt eu pariatur commodo.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [4,5,6]
     },
     {
       "id": 4,
@@ -37,7 +40,8 @@
       "price": 49.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Aliqua officia tempor laborum ex. Cupidatat aliquip deserunt aliquip nisi pariatur fugiat. Incididunt occaecat enim in eu deserunt. Incididunt sit irure ex laborum cupidatat veniam aliqua velit occaecat esse duis. Eu esse consequat eiusmod consequat irure laboris anim nulla commodo aliquip fugiat velit nostrud laborum. Ipsum anim aliquip veniam amet nostrud dolor duis elit nulla laboris velit voluptate quis veniam.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [5,6,7]
     },
     {
       "id": 5,
@@ -47,7 +51,8 @@
       "price": 49.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Irure non amet dolor dolor consectetur anim consequat in non veniam enim do. Labore consequat ipsum ut et tempor eiusmod quis id laboris laboris fugiat. Sunt ullamco mollit in magna velit nulla esse ex in exercitation et aute. Commodo pariatur id dolor esse ut sint enim.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [6,7,8]
     },
     {
       "id": 6,
@@ -57,7 +62,8 @@
       "price": 49.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "In excepteur adipisicing incididunt nulla incididunt eiusmod aliqua officia ut pariatur non veniam. Occaecat exercitation pariatur eu mollit quis velit duis enim cillum veniam veniam tempor aliquip ipsum. Velit ipsum consectetur do veniam commodo aliqua veniam velit. Do fugiat aliquip reprehenderit qui irure exercitation exercitation occaecat. Cillum cupidatat do mollit exercitation ut ipsum sint nisi fugiat cupidatat id mollit aliquip commodo.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [7,8,9]
     },
     {
       "id": 7,
@@ -67,7 +73,8 @@
       "price": 69.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Ullamco velit labore eu ipsum aute sunt eiusmod irure irure velit magna ipsum amet. Culpa laboris pariatur esse velit. Sunt mollit anim sint dolore veniam quis veniam labore nisi. Excepteur ut officia sunt ea deserunt occaecat amet.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [8,9,10]
     },
     {
       "id": 8,
@@ -77,7 +84,8 @@
       "price": 129.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Pariatur qui culpa esse anim consequat mollit dolor pariatur reprehenderit ut cupidatat. Ex est duis in dolor consectetur labore aliqua labore minim voluptate aliquip. Enim elit eiusmod id enim in nisi pariatur eu excepteur sunt nostrud ut est. Ullamco irure occaecat quis labore anim.",
-      "inStock": false
+      "inStock": false,
+      "recommended": [9,10,11]
     },
     {
       "id": 9,
@@ -87,7 +95,8 @@
       "price": 129.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Reprehenderit culpa qui amet pariatur dolor consequat elit deserunt aliquip qui sunt id. Velit voluptate dolore fugiat reprehenderit aliquip voluptate fugiat laborum labore et aliquip id. Ex esse ad culpa ex ea dolor esse esse occaecat minim eu. Eiusmod ut esse minim ad nisi duis aute occaecat ullamco esse laborum. Tempor ea culpa minim deserunt ad laborum ipsum sint. Aliqua culpa ut nostrud exercitation pariatur. Adipisicing magna elit deserunt adipisicing proident reprehenderit exercitation.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [10,11,12]
     },
     {
       "id": 10,
@@ -97,7 +106,8 @@
       "price": 129.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Anim cupidatat reprehenderit aute deserunt tempor amet incididunt adipisicing sunt veniam pariatur nostrud. Aliqua laboris ad non aliqua minim sunt. Est aute sint pariatur mollit fugiat sunt nulla culpa adipisicing. Elit exercitation velit nostrud voluptate occaecat exercitation pariatur ipsum ut consequat et aute cupidatat. Veniam et elit nulla labore quis laborum laboris est laboris velit. Consequat tempor sunt aliqua adipisicing eu aliquip in Lorem. Sit incididunt cillum dolor aliquip in commodo nulla duis enim incididunt.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [11,12,13]
     },
     {
       "id": 11,
@@ -107,7 +117,8 @@
       "price": 139.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Officia aliqua fugiat voluptate nisi minim eu laborum ut. Culpa fugiat sunt officia occaecat reprehenderit. Eiusmod consectetur dolor ut id magna commodo amet Lorem excepteur.",
-      "inStock": false
+      "inStock": false,
+      "recommended": [12,13,14]
     },
     {
       "id": 12,
@@ -117,7 +128,8 @@
       "price": 129.99,
       "sizes": ["s","m","l","xl","2xl","3xl"],
       "description": "Laborum pariatur consectetur Lorem do ea pariatur eiusmod ea aute laborum fugiat excepteur. Consectetur est sunt sunt occaecat dolor. Dolor dolore dolor excepteur ullamco fugiat. Enim aute ut id laboris cupidatat mollit sunt Lorem.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [13,14,15]
     },
     {
       "id": 13,
@@ -127,7 +139,8 @@
       "price": 39.99,
       "sizes": ["4","5","6","7","8","9"],
       "description": "Aliqua excepteur adipisicing dolor occaecat in aute cillum fugiat duis mollit consectetur nostrud consectetur. Qui aliquip adipisicing consequat nulla culpa amet ullamco cupidatat. Exercitation exercitation exercitation esse anim qui. Qui qui dolore ullamco velit consequat. Ullamco occaecat consequat ipsum minim minim in ipsum adipisicing aute aliquip fugiat sunt cupidatat voluptate. Et culpa consequat pariatur irure aute tempor id ad eiusmod culpa sint Lorem.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [14,15,16]
     },
     {
       "id": 14,
@@ -137,7 +150,8 @@
       "price": 59.99,
       "sizes": ["4","5","6","7","8","9"],
       "description": "Velit reprehenderit cupidatat irure qui adipisicing pariatur. Nostrud in ea labore in cillum elit nostrud ea eu nisi reprehenderit occaecat. Laboris irure in laborum deserunt ipsum sit quis sunt sint pariatur dolor laboris consequat dolore.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [15,16,17]
     },
     {
       "id": 15,
@@ -146,8 +160,9 @@
       "image": "https://images.unsplash.com/photo-1625357165350-bdbcb6d7d524?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       "price": 59.99,
       "sizes": ["4","5","6","7","8","9"],
-      "description": "",
-      "inStock": true
+      "description": "Reprehenderit consectetur ullamco enim do sit esse enim dolor et culpa proident duis pariatur. Anim fugiat fugiat quis amet cillum aliquip occaecat officia quis. Pariatur velit nostrud nostrud culpa exercitation tempor non et voluptate. Sint aliquip ut eiusmod qui. Cupidatat aliquip voluptate labore mollit quis culpa fugiat aute veniam et veniam id. Labore magna qui aute amet enim et et.",
+      "inStock": true,
+      "recommended": [16,17,18]
     },
     {
       "id": 16,
@@ -157,7 +172,8 @@
       "price": 19.99,
       "sizes": [""],
       "description": "Dolor qui exercitation commodo dolore nisi nostrud sit ad aliquip occaecat laborum. Est laborum esse eiusmod pariatur elit esse. Tempor quis labore eu laborum laboris veniam anim. Proident dolor commodo officia fugiat officia ea sint duis. Adipisicing minim et Lorem aliquip. Ullamco id voluptate quis cillum dolor.",
-      "inStock": false
+      "inStock": false,
+      "recommended": [17,18,19]
     },
     {
       "id": 17,
@@ -167,7 +183,8 @@
       "price": 39.99,
       "sizes": [""],
       "description": "Lorem id aute duis ipsum sit occaecat sit duis labore cupidatat ad sint do. Reprehenderit reprehenderit laboris velit officia eu voluptate Lorem sit quis consectetur laboris eu. Proident occaecat officia aliquip quis consequat laboris amet aliquip elit dolor et. Qui tempor sunt eiusmod ex ut ex deserunt quis ullamco qui elit. Officia id aliquip veniam voluptate aliquip. Aute commodo do ut magna quis sint amet.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [1,4,10]
     },
     {
       "id": 18,
@@ -177,7 +194,8 @@
       "price": 39.99,
       "sizes": [""],
       "description": "Laboris esse dolore adipisicing ullamco. Excepteur sunt labore eu cillum nisi et Lorem nisi occaecat ipsum nulla sint. Reprehenderit aliqua sunt voluptate sint do sunt. Nisi nostrud aliquip cupidatat cupidatat qui cupidatat reprehenderit amet irure do mollit qui anim. Id est cupidatat reprehenderit dolore esse anim in officia duis magna reprehenderit mollit. Ullamco duis eiusmod mollit irure irure pariatur consequat veniam culpa officia.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [1,7,12]
     },
     {
       "id": 19,
@@ -187,6 +205,7 @@
       "price": 39.99,
       "sizes": [""],
       "description": "Officia aliqua fugiat voluptate nisi minim eu laborum ut. Culpa fugiat sunt officia occaecat reprehenderit. Eiusmod consectetur dolor ut id magna commodo amet Lorem excepteur.",
-      "inStock": true
+      "inStock": true,
+      "recommended": [2,11,8]
     }
   ]

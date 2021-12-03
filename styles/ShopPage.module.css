@@ -15,3 +15,7 @@
     gap: 2.5rem 1rem;
     place-items: center;
 }
+
+.bottom_border {
+    border-bottom: 1px solid black;
+}

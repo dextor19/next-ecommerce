@@ -25,6 +25,14 @@ const ProducMenu: FC<ProducMenuProps> = ({ product }) => {
         <h1 className={styles.title}>{product.product}</h1>
         <p className={styles.price}>$ {product.price}</p>
         <div className={styles.bottom_border} />
+        <div className={styles.select_container}>
+            <p>SIZE:</p>
+            <select className={styles.select}>
+                {product.sizes.map((size: any) => (
+                <option key={product.id} value={size}>{size.toUpperCase()}</option>
+                ))}
+            </select>
+        </div>
         {product.inStock ? 
         <button
         onClick={() => dispatch(addToCart(product))}

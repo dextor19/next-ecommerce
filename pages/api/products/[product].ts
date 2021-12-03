@@ -7,6 +7,14 @@ export function getProductById(id: number) {
   }
 }
 
+export function getRecommendedProducts(recommended: Array<number>) {
+  let products: any = [];
+  recommended.map((item: number) => {
+    products.push(data.find((product:any) => product.id.toString() === item.toString()));
+  });
+  return products;
+}
+
 export default function handler(req: any, res: any) {
   if (req.method !== 'GET') {
     res.setHeader('Allow', ['GET']);
