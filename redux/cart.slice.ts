@@ -19,7 +19,8 @@ const cartSlice = createSlice({
   initialState: [] as CartProduct[],
   reducers: {
     addToCart: (state, action: PayloadAction<Product>) => {
-        const productIndex = state.findIndex(product => product.id === action.payload.id);
+        const productIndex = state.findIndex(product => 
+          product.id === action.payload.id && product.size === action.payload.size);
         if (productIndex !== -1 && state[productIndex].size === action.payload.size) {
             state[productIndex].quantity++;
         } else {
@@ -27,11 +28,13 @@ const cartSlice = createSlice({
         }
     },
     incrementQuantity: (state, action: PayloadAction<Product>) => {
-        const productIndex = state.findIndex( product => product.id === action.payload.id);
+        const productIndex = state.findIndex( product => 
+          product.id === action.payload.id && product.size === action.payload.size);
             state[productIndex].quantity++;
     },
     decrementQuantity: (state, action: PayloadAction<Product>) => {
-        const productIndex = state.findIndex(product => product.id === action.payload.id);
+        const productIndex = state.findIndex(product => 
+          product.id === action.payload.id && product.size === action.payload.size);
         if (state[productIndex].quantity === 1) {
           state.splice(productIndex, 1);
         } else {
@@ -39,7 +42,8 @@ const cartSlice = createSlice({
         }
     },
     removeFromCart: (state, action: PayloadAction<Product>) => {
-      const productIndex = state.findIndex( product => product.id === action.payload.id);
+      const productIndex = state.findIndex( product => 
+        product.id === action.payload.id && product.size === action.payload.size);
       state.splice(productIndex, 1);
     },
   },

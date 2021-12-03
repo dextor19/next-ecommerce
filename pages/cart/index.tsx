@@ -12,6 +12,10 @@ const CartPage = () => {
   const cart = useSelector(getCartSelector);
   const dispatch = useDispatch();
 
+  const getTotalProductPrice = (quantity: number, price: number) => {
+    return quantity * price;
+  };
+
   const getTotalPrice = () => {
     return cart.cartReducer.reduce(
       (accumulator: any, item: any) => accumulator + item.quantity * item.price,
@@ -54,7 +58,9 @@ const CartPage = () => {
                   x
                 </button>
               </div>
-              <p>$ {parseFloat(getTotalPrice().toString()).toFixed(2)}</p>
+              <p>$ {
+                parseFloat(getTotalProductPrice(item.quantity, item.price).toString()).toFixed(2)
+              }</p>
             </div>
           ))}
           <h2>Grand Total: $ {parseFloat(getTotalPrice().toString()).toFixed(2)}</h2>
