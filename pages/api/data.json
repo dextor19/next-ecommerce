@@ -170,7 +170,7 @@
       "category": "umbrellas",
       "image": "https://images.unsplash.com/photo-1514882651048-f09572b0233e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=584&q=80",
       "price": 19.99,
-      "sizes": [""],
+      "sizes": ["any"],
       "description": "Dolor qui exercitation commodo dolore nisi nostrud sit ad aliquip occaecat laborum. Est laborum esse eiusmod pariatur elit esse. Tempor quis labore eu laborum laboris veniam anim. Proident dolor commodo officia fugiat officia ea sint duis. Adipisicing minim et Lorem aliquip. Ullamco id voluptate quis cillum dolor.",
       "inStock": false,
       "recommended": [17,18,19]
@@ -181,7 +181,7 @@
       "category": "bags",
       "image": "https://images.unsplash.com/photo-1603219527847-24c87f552a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "price": 39.99,
-      "sizes": [""],
+      "sizes": ["any"],
       "description": "Lorem id aute duis ipsum sit occaecat sit duis labore cupidatat ad sint do. Reprehenderit reprehenderit laboris velit officia eu voluptate Lorem sit quis consectetur laboris eu. Proident occaecat officia aliquip quis consequat laboris amet aliquip elit dolor et. Qui tempor sunt eiusmod ex ut ex deserunt quis ullamco qui elit. Officia id aliquip veniam voluptate aliquip. Aute commodo do ut magna quis sint amet.",
       "inStock": true,
       "recommended": [1,4,10]
@@ -192,7 +192,7 @@
       "category": "bags",
       "image": "https://images.unsplash.com/photo-1608731267464-c0c889c2ff92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
       "price": 39.99,
-      "sizes": [""],
+      "sizes": ["any"],
       "description": "Laboris esse dolore adipisicing ullamco. Excepteur sunt labore eu cillum nisi et Lorem nisi occaecat ipsum nulla sint. Reprehenderit aliqua sunt voluptate sint do sunt. Nisi nostrud aliquip cupidatat cupidatat qui cupidatat reprehenderit amet irure do mollit qui anim. Id est cupidatat reprehenderit dolore esse anim in officia duis magna reprehenderit mollit. Ullamco duis eiusmod mollit irure irure pariatur consequat veniam culpa officia.",
       "inStock": true,
       "recommended": [1,7,12]
@@ -203,7 +203,7 @@
       "category": "bags",
       "image": "https://images.unsplash.com/photo-1479219136056-56bb6495a005?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
       "price": 39.99,
-      "sizes": [""],
+      "sizes": ["any"],
       "description": "Officia aliqua fugiat voluptate nisi minim eu laborum ut. Culpa fugiat sunt officia occaecat reprehenderit. Eiusmod consectetur dolor ut id magna commodo amet Lorem excepteur.",
       "inStock": true,
       "recommended": [2,11,8]

@@ -12,19 +12,17 @@ interface Product {
     sizes: any;
     description: string;
     inStock: boolean;
-}
-interface ProductWithSize extends Product {
     size: string;
 }
 interface ProducMenuProps {
-    product: ProductWithSize;
+    product: Product;
 
 }
 
 const ProducMenu: FC<ProducMenuProps> = ({ product }) => {
     const dispatch = useDispatch();
     const [productInState, setProduct] = useState(product);
-    const [size, setSize] = useState('')
+    const [size, setSize] = useState(product.sizes[0])
 
     useEffect(() => {
         setProduct( prev => ({ ...productInState, size: size}))
