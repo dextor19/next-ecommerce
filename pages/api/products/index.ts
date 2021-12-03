@@ -7,7 +7,6 @@ export function getProducts() {
 export function getNewArrivals() {
   let products: any = [];
   data.map((obj: any) => {
-    console.log(new Date())
     if (new Date(obj.createdAt) > new Date()){
       products.push(obj);
     }
