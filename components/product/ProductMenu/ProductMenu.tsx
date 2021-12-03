@@ -25,12 +25,22 @@ const ProducMenu: FC<ProducMenuProps> = ({ product }) => {
         <h1 className={styles.title}>{product.product}</h1>
         <p className={styles.price}>$ {product.price}</p>
         <div className={styles.bottom_border} />
+        {product.inStock ? 
         <button
         onClick={() => dispatch(addToCart(product))}
         className={styles.button}
         >
         Add to Cart
         </button>
+        :
+        <button
+        className={styles.sold_out_button}
+        >
+        Sold Out
+        </button>
+        }
+        <p className={styles.description}>{product.description}</p>
+        <p className={styles.instock}>{product.inStock ? 'In Stock' : 'Out of Stock'}</p>
     </div>
     );
 };
