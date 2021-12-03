@@ -4,6 +4,17 @@ export function getProducts() {
   return data;
 }
 
+export function getNewArrivals() {
+  let products: any = [];
+  data.map((obj: any) => {
+    console.log(new Date())
+    if (new Date(obj.createdAt) > new Date()){
+      products.push(obj);
+    }
+  });
+  return products;
+}
+
 export default function handler (req: any, res: any) {
   if (req.method !== 'GET') {
     res.setHeader('Allow', ['GET']);

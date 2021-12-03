@@ -1,8 +1,15 @@
+import { FC } from 'react';
 import styles from '../styles/Home.module.css'
 import CategoryCard from '@components/category/CategoryCard';
 import Hero from '@components/common/Hero';
+import ProductCard from '@components/product/ProductCard';
+import { getNewArrivals } from './api/products';
 
-const HomePage = () => {
+interface ProductPageProps {
+  products: any;
+}
+
+const HomePage: FC<ProductPageProps> = ({ products }) => {
   return (
     <main className={styles.container}>
       <Hero 
@@ -37,8 +44,19 @@ const HomePage = () => {
       </div>
       <div className={styles.bottom_border} />
       <h3>New Arrivals</h3>
+      <div className={styles.cards}>
+        {products.map((product: any) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
     </main>
   );
 };
 
 export default HomePage;
+
+export async function getServerSideProps(ctx: any) {
+  const id = ctx.query.product;
+  const products: any = await getNewArrivals();
+  return { props: { products } };
+}

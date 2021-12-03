@@ -9,3 +9,11 @@
 .bottom_border {
   border-bottom: 1px solid black;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem 1rem;
+  place-items: center;
+  padding: 1rem;
+}
