@@ -16,24 +16,26 @@
     margin: 0 8px;
   }
 
-  .button {
-    width: 100%;
-    margin-top: 0.5rem;
-    padding: 0.75rem 0;
-    background: transparent;
-    text-transform: uppercase;
-    border: 2px solid black;
-    background: black;
-    color: white;
-    cursor: pointer;
-  }
-  .button:hover {
-    border: 2px solid black;
-    background: white;
-    color: black;
-  }
   .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column {
     display: flex;
     flex-direction: column;
     text-align: left;
+  }
+  .sold_out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 8px 8px 0 8px;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: x-small;
   }
