@@ -28,6 +28,7 @@ const CartPage = () => {
           <div className={styles.header}>
             <div>Image</div>
             <div>Product</div>
+            <div>Size</div>
             <div>Price</div>
             <div>Quantity</div>
             <div>Actions</div>
@@ -39,6 +40,7 @@ const CartPage = () => {
                 <Image src={item.image} height="90" width="65" alt="" />
               </div>
               <p>{item.product}</p>
+              <p>{item.size}</p>
               <p>$ {item.price}</p>
               <p>{item.quantity}</p>
               <div className={styles.buttons}>

@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useState, useEffect} from 'react';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '@redux/cart.slice';
 import styles from './ProductMenu.module.scss';
@@ -13,13 +13,23 @@ interface Product {
     description: string;
     inStock: boolean;
 }
+interface ProductWithSize extends Product {
+    size: string;
+}
 interface ProducMenuProps {
-    product: Product;
+    product: ProductWithSize;
 
 }
 
 const ProducMenu: FC<ProducMenuProps> = ({ product }) => {
     const dispatch = useDispatch();
+    const [productInState, setProduct] = useState(product);
+    const [size, setSize] = useState('')
+
+    useEffect(() => {
+        setProduct( prev => ({ ...productInState, size: size}))
+    }, [size, productInState]);
+
     return (
     <div className={styles.container}>
         <h1 className={styles.title}>{product.product}</h1>
@@ -27,15 +37,18 @@ const ProducMenu: FC<ProducMenuProps> = ({ product }) => {
         <div className={styles.bottom_border} />
         <div className={styles.select_container}>
             <p>SIZE:</p>
-            <select className={styles.select}>
-                {product.sizes.map((size: any) => (
-                <option key={product.id} value={size}>{size.toUpperCase()}</option>
+            <select 
+            className={styles.select}
+            onChange={(event) => setSize(event.target.value)}
+            >
+                {product.sizes.map((sizeItem: any) => (
+                <option key={product.id} value={sizeItem}>{sizeItem.toUpperCase()}</option>
                 ))}
             </select>
         </div>
         {product.inStock ? 
         <button
-        onClick={() => dispatch(addToCart(product))}
+        onClick={() => dispatch(addToCart(productInState))}
         className={styles.button}
         >
         Add to Cart

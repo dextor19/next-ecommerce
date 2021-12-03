@@ -7,6 +7,7 @@ interface Product {
     category: string;
     image: string;
     price: number;
+    size: string;
 }
 
 interface CartProduct extends Product {
@@ -22,7 +23,7 @@ const cartSlice = createSlice({
         if (productIndex !== -1) {
             state[productIndex].quantity++;
         } else {
-            state.push({...action.payload, quantity: 1})
+            state.push({...action.payload, quantity: 1, size: action.payload.size})
         }
     },
     incrementQuantity: (state, action: PayloadAction<Product>) => {
