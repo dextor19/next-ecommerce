@@ -4,10 +4,12 @@ import {
   ThunkAction,
 } from '@reduxjs/toolkit';
 import cartReducer from './cart.slice';
+import favouriteReducer from './favourite.slice';
 
 export const store = configureStore({
   reducer : {
-    cartReducer
+    cartReducer,
+    favouriteReducer
   }
 });
 

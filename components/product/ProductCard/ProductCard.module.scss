@@ -39,3 +39,15 @@
     text-transform: uppercase;
     font-size: x-small;
   }
+
+  .heart_icon {
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+  .heart_icon:hover {
+    color: red;
+  }
+  .heart_icon:active {
+    color: red;
+  }
