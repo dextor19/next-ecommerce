@@ -31,7 +31,6 @@ const Navbar = () => {
         </li>
       </ul>
     </nav>
-    <div className={styles.bottom_border} />
     </>
   );
 };
