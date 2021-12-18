@@ -8,6 +8,7 @@ interface Favourite {
     image: string;
     price: number;
     inStock: boolean;
+    createdAt: Date;
     favourite: boolean;
 }
 

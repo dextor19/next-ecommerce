@@ -23,7 +23,8 @@ const FavouritePage = () => {
                     category: item.category,
                     image: item.image,
                     price: item.price,
-                    inStock: item.inStock
+                    inStock: item.inStock,
+                    createdAt: item.createdAt
                   }} />
               </div>
             ))}

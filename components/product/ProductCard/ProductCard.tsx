@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC, useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useDispatch, useSelector } from 'react-redux';
@@ -18,7 +18,9 @@ interface Product {
     image: string;
     price: number;
     inStock: boolean;
+    createdAt: Date;
 }
+
 interface ProductCardProps {
     product: Product;
 
@@ -27,6 +29,7 @@ interface ProductCardProps {
 const ProductCard: FC<ProductCardProps> = ({ product }) => {
     const dispatch = useDispatch();
     const favourite = useSelector(getFavouriteSelector);
+    const [newArrival, setNewArrival] = useState(false);
     const favouriteProducts = () => {
         return favourite.favouriteReducer.map(
             (products: any) => products.id
@@ -42,6 +45,12 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
         return status;
     }
 
+    useEffect(() => {
+        if (new Date(product.createdAt) > new Date()){
+            setNewArrival( prev => (true));
+          }
+    }, [product.createdAt]);
+
     const addedOrRemoveFavourite = () => {
         if (favouriteStatus() == false) {
             dispatch(addToFavourite({
@@ -51,6 +60,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
                 image: product.image,
                 price: product.price,
                 inStock: product.inStock,
+                createdAt: product.createdAt,
                 favourite: true
             }))
         } else {
@@ -61,6 +71,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
                 image: product.image,
                 price: product.price,
                 inStock: product.inStock,
+                createdAt: product.createdAt,
                 favourite: true
             }))
         }
@@ -75,6 +86,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
             <div className={styles.column}>
                 <h4 className={styles.title}>{product.product}</h4>
                 <p className={styles.price}>$ {product.price}</p>
+                {newArrival ? <p className={styles.price}>New Arrival</p> : null}
             </div>
             {product.inStock ? 
             <div className={styles.heart_icon} onClick={() => addedOrRemoveFavourite()}>
