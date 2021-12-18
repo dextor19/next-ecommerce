@@ -4,12 +4,21 @@
     margin: auto;
     text-align: center;
     max-height: 400px;
+
+    img {
+      cursor: pointer;
+    }
   }
   
   .title {
     font-size: 1rem;
     font-weight: 600;
     margin: 8px;
+    cursor: pointer;
+  }
+
+  .title:hover {
+    text-decoration: underline;
   }
 
   .price {
