@@ -1,0 +1,56 @@
+.container {
+    .button {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 0.75rem 0;
+        background: transparent;
+        text-transform: uppercase;
+        border: 2px solid black;
+        border-radius: 24px;
+        background: black;
+        color: white;
+        cursor: pointer;
+      }
+    .button:hover {
+    border: 2px solid black;
+    background: white;
+    color: black;
+    }
+    .sold_out_button {
+        width: 100%;
+        margin-top: 0.5rem;
+        padding: 0.75rem 0;
+        background: transparent;
+        text-transform: uppercase;
+        border: 2px solid black;
+        border-radius: 24px;
+        background: white;
+        color: black;
+    }
+    .bottom_border {
+        border-bottom: 1px solid black;
+    }
+    .select_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: .25em;
+        padding-bottom: 1em;
+        overflow: hidden;
+    }
+    .select {
+        /* Reset Select */
+        outline: 0;
+        box-shadow: none;
+        /* Personalize */
+        width: 100%;
+        color: black;
+        background-color: white;
+        background-image: none;
+        cursor: pointer;
+        text-align: center;
+        height: 3em;
+    }
+    
+}

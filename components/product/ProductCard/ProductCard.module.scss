@@ -1,0 +1,62 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    max-height: 400px;
+
+    img {
+      cursor: pointer;
+    }
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 8px;
+    cursor: pointer;
+  }
+
+  .title:hover {
+    text-decoration: underline;
+  }
+
+  .price {
+    margin: 0 8px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  .sold_out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 8px 8px 0 8px;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: x-small;
+  }
+
+  .heart_icon {
+    margin: 1rem;
+    cursor: pointer;
+  }
+
+  .heart_icon:hover {
+    color: red;
+  }
+  .heart_icon:active {
+    color: red;
+  }

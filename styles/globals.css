@@ -14,3 +14,10 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
